@@ -1,0 +1,526 @@
+/*style CHARACTERS*/
+body{
+  background-color: black;
+}
+
+* {
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+h1{
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.flexbox-header {
+  margin-top: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 150px;
+  border-radius: 0px 50px 50px 0px;
+  min-height: 100px;
+}
+
+i{
+  color:#fff;
+}
+
+.nav ul {
+display: flex;
+flex-direction:row;
+}
+.nav ul li i{
+  display: block;
+}
+.nav ul li:hover i{
+ display: none;
+}
+.nav ul li a{
+  display: none;
+}
+.nav ul li:hover a{
+ display: block;
+}
+.nav ul li{
+  font-size:15pt;
+  display:inline-block;
+  padding:20px;
+  transition: all 10s ease-in-out;
+font-family: 'Fjalla One', sans-serif;
+}
+.nav ul li a{
+  font-family: FontAwesome;
+  color:#9373d6;
+  font-size:14pt;
+  text-decoration: none;
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+.nav ul li a:hover:nth-child(1) {
+  content:"home";
+}
+.nav ul li a:hover:nth-child(2) {
+  content:"spoilers";
+ }
+.nav ul li a:hover:nth-child(3) {
+   content:"credits";
+ }
+.nav ul li a:hover:nth-child(4) {
+  content:"stream";
+}
+
+.nav a:hover {
+  color:#9373d6;
+font-family: 'Fjalla One', sans-serif;
+
+ }
+
+ .flexbox-header > div {
+   display: flex;
+   font-size: 100%;
+   color: white;
+   text-align: center;
+   color: white;
+   align-self: center;
+ font-family: 'Fjalla One', sans-serif;
+ }
+
+/*BAR NR 2*/
+
+.flexbox-header2 {
+background-color: #9373d6;
+    margin-top: 0px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  position: sticky;
+  align-items: center;
+  top: 100px;
+  border-radius: 0px 50px 50px 0px;
+  min-height: 100px;
+}
+
+i{
+  color:#fff;
+}
+i{
+  padding:0 10px;
+ }
+
+.nav2 ul {
+display: flex;
+flex-direction:column;
+}
+.nav2 ul li i{
+  display: block;
+}
+.nav2 ul li:hover i{
+ display: none;
+}
+.nav2 ul li a{
+  display: none;
+}
+.nav2 ul li:hover a{
+ display: block;
+}
+.nav2 ul li{
+  font-size:15pt;
+  display:inline-block;
+  padding:20px;
+  transition: all 10s ease-in-out;
+font-family: 'Fjalla One', sans-serif;
+}
+.nav2 ul li a{
+  font-family: FontAwesome;
+  color:black;
+  font-size:14pt;
+  text-decoration: none;
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+.nav2 ul li a:hover:nth-child(1) {
+  content:"home";
+}
+.nav2 ul li a:hover:nth-child(2) {
+  content:"story";
+ }
+.nav2 ul li a:hover:nth-child(3) {
+   content:"spoilers";
+ }
+.nav2 ul li a:hover:nth-child(4) {
+  content:"credits";
+}
+.nav2 ul li a:hover:nth-child(5) {
+  content:"stream";
+}
+
+.nav2 a:hover {
+  color:black;
+font-family: 'Fjalla One', sans-serif;
+
+ }
+
+ .flexbox-header2 > div {
+   display: flex;
+   font-size: 100%;
+   color: white;
+   text-align: center;
+   color: white;
+   align-self: center;
+ font-family: 'Fjalla One', sans-serif;
+ }
+
+.flexback{
+  background-color:#9373d6;
+}
+
+
+/*END*/
+
+
+#header{
+  width: 100%;
+  height:100%;
+
+}
+#topic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.list1{
+  background-color: #fff9ed;
+  margin-top: 1px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 200%;
+
+}
+
+.list1 ul li {
+  color: black;
+
+}
+.list2{
+  background-color: #fff9ed;
+    margin-top: 1px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 200%;
+    width: 100%;
+
+}
+
+.list1 li a{
+  text-decoration: none;
+
+}
+.list2 li a{
+  text-decoration: none;
+
+}
+
+/*LUTHER*/                        /*LUTHER*/
+#luther {
+  font-size: 200%;
+  color: #e9c150;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#lutherpic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#luthermoon{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#lutha {
+ text-align: center;
+ display: flex;
+ justify-content:space-around;
+padding-left: 10%;
+ line-height: 1.4;
+}
+#lutha2 {
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#lutha3 {
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color:  #e9c150;
+  color: black;
+  padding: 8px;
+
+}
+
+/*DIEGO*/                        /*DIEGO*/
+
+#diego{
+  font-size: 200%;
+  color: #d24637;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#diegopic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#diegopwr{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#dieg{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 10%;
+  line-height: 1.4;
+}
+#dieg2{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#dieg3{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color:  #d24637;
+  color: black;
+  padding: 8px;
+}
+  /*ALLISON*/                        /*ALLISON*/
+#allison{
+  font-size: 200%;
+  color: #e363b8;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#allisonpic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#allisonpwr{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#alli{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 10%;
+  line-height: 1.4;
+}
+#alli2{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#alli3{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color:  #e363b8;
+  color: black;
+  padding: 8px;
+}
+
+  /*KLAUS*/                           /*KLAUS*/
+#klaus{
+  font-size: 200%;
+  color: #62af5d;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#klauspic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#klauspwr{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#klau{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 10%;
+  line-height: 1.4;
+}
+#klau2{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#klau3{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color: #62af5d;
+  color: black;
+  padding: 8px;
+}
+
+/*FIVE*/                           /*FIVE*/
+#nrfive{
+  font-size: 200%;
+  color: #46aab9;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#nrfivepic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#nrfivepwr{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#five{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 10%;
+  line-height: 1.4;
+}
+#five2{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#five3{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color: #46aab9;
+  color: black;
+  padding: 8px;
+}
+/*BEN*/                           /*BEN*/
+#ben{
+  font-size: 200%;
+  color: #e18346;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#benpic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#benpwr{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#ben1{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 10%;
+  line-height: 1.4;
+}
+#ben2{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#ben3{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color: #e18346;
+  color: black;
+  padding: 8px;
+}
+
+/*VANYA*/                           /*VANYA*/
+#vanya{
+  font-size: 200%;
+  color: #9373d6;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+#vanyapic{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#vanyapwr{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#van{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 10%;
+  line-height: 1.4;
+}
+#van2{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+ padding-left: 20%;
+ padding-top: 10%;
+  line-height: 1.4;
+}
+#van3{
+  text-align: left;
+  display: flex;
+  justify-content:space-around;
+  line-height: 1.4;
+  background-color: #9373d6;
+  color: black;
+  padding: 8px;
+}

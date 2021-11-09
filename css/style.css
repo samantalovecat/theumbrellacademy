@@ -1,0 +1,295 @@
+/*empty comment*/
+/*stylesheet index*/
+body {
+  background-color: black;
+}
+
+
+h2 {
+  color:rgb(233, 54, 54);
+font-family: 'Fjalla One', sans-serif;
+}
+
+*{
+  max-height: 100%;
+}
+
+/* MENYBAR = home, characters , spoilers , credits , stream */
+.flexbox-header {
+  background: radial-gradient(ellipse at left , rgba(232, 7, 7, 0.47) 0.2% , #000000 70%);
+    margin-top: 0px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  position: sticky;
+  align-items: center;
+  top: 150px;
+  border-radius: 0px 50px 50px 0px;
+  min-height: 100px;
+}
+
+i{
+  color:#fff;
+}
+i{
+  padding:0 10px;
+ }
+
+.nav ul {
+display: flex;
+flex-direction:column;
+}
+.nav ul li i{
+  display: block;
+}
+.nav ul li:hover i{
+ display: none;
+}
+.nav ul li a{
+  display: none;
+}
+.nav ul li:hover a{
+ display: block;
+}
+.nav ul li{
+  font-size:15pt;
+  display:inline-block;
+  padding:20px;
+  transition: all 10s ease-in-out;
+font-family: 'Fjalla One', sans-serif;
+}
+.nav ul li a{
+  font-family: FontAwesome;
+  color:#d23939;
+  font-size:14pt;
+  text-decoration: none;
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+.nav ul li a:hover:nth-child(1) {
+  content:"home";
+}
+.nav ul li a:hover:nth-child(2) {
+  content:"story";
+ }
+.nav ul li a:hover:nth-child(3) {
+   content:"spoilers";
+ }
+.nav ul li a:hover:nth-child(4) {
+  content:"credits";
+}
+.nav ul li a:hover:nth-child(5) {
+  content:"stream";
+}
+
+.nav a:hover {
+  color:#d23939;
+font-family: 'Fjalla One', sans-serif;
+
+ }
+
+ .flexbox-header > div {
+   display: flex;
+   font-size: 100%;
+   color: white;
+   text-align: center;
+   color: white;
+   align-self: center;
+ font-family: 'Fjalla One', sans-serif;
+ }
+
+
+
+
+
+
+
+/*Loggan, bilden och texten längst upp*/
+
+#funky2 { /*loggan*/
+  width: 100%;
+  height:100%;
+
+}
+.logotext {
+  color: white;
+  font-size: 150%;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+text-align: center;
+}
+
+.generalinfo {
+background: radial-gradient(ellipse at right top, rgb(11, 68, 163) 0.002% , #000000 75%);
+  margin-top: 0px;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  color:rgb(139, 139, 139);
+  justify-content:space-around;
+  padding-top: 10px;
+  min-height: 100px;
+}
+.generalinfo > div{
+  font-size: 100%;
+  font-family: 'Fjalla One', sans-serif;
+  flex-basis: auto;
+  opacity: 50%;
+
+}
+
+/*Loggan, bilden och texten längst upp*/
+
+
+#hombck {
+  background: #12214D;
+  background: -webkit-radial-gradient(bottom, #12214D, #010101);
+  background: -moz-radial-gradient(bottom, #12214D, #010101);
+  background: radial-gradient(to top, #12214D, #010101);
+  min-height: 100px;
+}
+
+
+
+
+#home {
+  color:rgb(233, 54, 54);
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+  font-size: 200%;
+  text-align: center;
+  padding-top: 40%;
+  text-shadow: 3px 3px rgb(15, 45, 136);
+}
+
+.regulartext{
+  color: white;
+  margin: 0px;
+  border-top: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+  font-size: 150%;
+  text-align: left;
+  line-height: 1.5;
+  font-family: 'Zen Kurenaido', sans-serif;
+  min-height: 100px;
+}
+
+#text1a{
+  color: white;
+  margin: 0px;
+  border-top: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+  font-size: 130%;
+  display: flex;
+ justify-content: center;
+ text-align: right;
+  line-height: 1.5;
+  height: 100%;
+
+}
+
+
+#gerard{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 7px 7px rgb(0, 0, 1);
+}
+
+#mychemicalromance{
+ font-style: italic;
+ position: relative;
+   font-family: 'Zen Kurenaido', sans-serif;
+   color:white;
+   text-align: left;
+}
+
+#uaaa {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    box-shadow: 7px 7px rgb(8, 2, 0);
+}
+#text1b {
+  color: white;
+  margin: 0px;
+  border-top: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+  font-size: 130%;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.5;
+  height: 100%;
+}
+#trailertext{
+  text-align: right;
+}
+
+
+#text2 {
+  color: white;
+  margin: 0px;
+  border-top: 0px;
+  margin-right: 0%;
+  margin-left: 0%;
+  font-size: 120%;
+  text-align: center;
+  line-height: 1.5;
+  font-family:  'Zen Kurenaido', sans-serif;
+  height: 100%;
+}
+
+
+
+#herofam {
+  width: 100%;
+}
+#herofamtitle{
+  grid-column: 3/8;
+  grid-row: 18/19;
+  background-color: rgb(61, 105, 180);
+  color: white;
+  font-family:'Special Elite', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+#babyborn {
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+  border-width: 10px;
+}
+#babyborn1 {
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+  border-width: 10px;
+}
+
+#storytitle {
+  font-size: 200%;
+  text-align: center;
+}
+#realtop {
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}

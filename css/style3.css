@@ -1,0 +1,118 @@
+/*style spoilers*/
+body {
+  background-color: black;
+}
+h1{
+  font-family: "special elite",sans-serif;
+  color: red;
+}
+.flexbox-header {
+  background: black;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  position: sticky;
+  align-items: center;
+  top: 10px;
+  border-radius: 0px 50px 50px 0px;
+  min-height: 100px;
+}
+
+i{
+  color:#fff;
+}
+i{
+  padding:0 10px;
+ }
+
+.nav ul {
+display: flex;
+flex-direction:column;
+}
+.nav ul li i{
+  display: block;
+}
+.nav ul li:hover i{
+ display: none;
+}
+.nav ul li a{
+  display: none;
+}
+.nav ul li:hover a{
+ display: block;
+}
+.nav ul li{
+  font-size:15pt;
+  display:inline-block;
+  padding:20px;
+  transition: all 10s ease-in-out;
+font-family: 'Fjalla One', sans-serif;
+}
+.nav ul li a{
+  font-family: FontAwesome;
+  color:#d23939;
+  font-size:14pt;
+  text-decoration: none;
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+.nav ul li a:hover:nth-child(1) {
+  content:"home";
+}
+.nav ul li a:hover:nth-child(2) {
+  content:"story";
+ }
+.nav ul li a:hover:nth-child(3) {
+   content:"spoilers";
+ }
+.nav ul li a:hover:nth-child(4) {
+  content:"credits";
+}
+.nav ul li a:hover:nth-child(5) {
+  content:"stream";
+}
+
+.nav a:hover {
+  color:#d23939;
+font-family: 'Fjalla One', sans-serif;
+
+ }
+
+ .flexbox-header > div {
+   display: flex;
+   font-size: 100%;
+   color: white;
+   text-align: center;
+   color: white;
+   align-self: center;
+ font-family: 'Fjalla One', sans-serif;
+ }
+ #spoilerpic{
+   width: 100%;
+     height:100%;
+     object-fit: cover;
+ }
+ .flexback{
+   background-color: black;
+ }
+#endpic , #endpic2 ,#vanyaend{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.endonetext{
+  color: white;
+  font-family: "special elite",sans-serif;
+  font-size: 150%;
+  text-align:center;
+  vertical-align: middle;
+}
+.textone{
+  color: white;
+  font-family: "special elite",sans-serif;
+  font-size: 150%;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 1.4;
+}

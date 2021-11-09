@@ -1,0 +1,220 @@
+/*grid CHARACTERS*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.flexbox-header{
+  grid-column:10/17;
+  grid-row: 1/2;
+
+}
+.flexback{
+  grid-column:1/2;
+  grid-row: 7/70;
+}
+.flexbox-header2{
+  grid-column:1/2;
+  grid-row: 7/13;
+
+}
+.toplight{
+  grid-column:2/-1;
+  grid-row: 7/8;
+}
+
+#header {
+  grid-column:1/7;
+  grid-row: 1/2;
+}
+#topic{
+  grid-column:1/9;
+  grid-row: 3/7;
+}
+
+.list1 {
+  grid-column:9/13;
+  grid-row: 3/7;
+}
+.list2 {
+  grid-column:13/17;
+  grid-row: 3/7;
+}
+h1{
+  grid-column:7/12;
+  grid-row: 7/8;
+}
+
+#luther {
+  grid-column:5/8;
+  grid-row: 9/10;
+}
+#lutherpic{
+  grid-column:4/8;
+  grid-row: 10/13;
+}
+#luthermoon{
+  grid-column:10/15;
+  grid-row: 13/16;
+}
+#lutha{
+  grid-column:8/12;
+  grid-row: 10/13;
+}
+#lutha2{
+  grid-column:4/8;
+  grid-row: 13/16;
+}
+#lutha3{
+  grid-column:13/15;
+  grid-row: 10/12;
+}
+
+#diego {
+  grid-column:5/8;
+  grid-row: 17/18;
+}
+#diegopic{
+  grid-column:4/8;
+  grid-row: 18/21;
+}
+#diegopwr {
+grid-column:10/15;
+grid-row: 21/24;
+}
+#dieg{
+  grid-column:8/12;
+  grid-row: 18/21;
+}
+#dieg2 {
+  grid-column:4/8;
+  grid-row: 21/24;
+}
+#dieg3{
+  grid-column:13/15;
+  grid-row: 18/20;
+}
+
+
+#allison{
+  grid-column:5/8;
+  grid-row: 25/26;
+}
+#allisonpic{
+   grid-column:4/8;
+  grid-row: 26/29;}
+#allisonpwr {grid-column:10/15;
+grid-row: 29/32;
+}
+#alli{
+  grid-column:8/12;
+  grid-row: 26/29;
+}
+#alli2 {
+  grid-column:4/8;
+  grid-row: 29/32;
+}
+#alli3{
+  grid-column:13/15;
+  grid-row: 26/28;
+}
+
+#klaus{
+  grid-column:5/8;
+  grid-row: 33/34;
+}
+#klauspic{
+   grid-column:4/8;
+  grid-row: 34/37;}
+#klauspwr {grid-column:10/15;
+grid-row: 37/40;
+}
+#klau{
+  grid-column:8/12;
+  grid-row: 34/37;
+}
+#klau2 {
+  grid-column:4/8;
+  grid-row: 37/40;
+}
+#klau3{
+  grid-column:13/15;
+  grid-row: 34/36;
+}
+#nrfive{
+  grid-column:5/8;
+  grid-row: 41/42;
+}
+#nrfivepic{
+   grid-column:4/8;
+  grid-row: 42/45;}
+#nrfivepwr {grid-column:10/15;
+grid-row: 45/48;
+}
+#five{
+  grid-column:8/12;
+  grid-row: 42/45;
+}
+#five2 {
+  grid-column:4/8;
+  grid-row: 45/48;
+}
+#five3{
+  grid-column:13/15;
+  grid-row: 42/44;
+}
+#ben{
+  grid-column:5/8;
+  grid-row: 49/50;
+}
+#benpic{
+   grid-column:4/8;
+  grid-row: 50/53;}
+#benpwr {grid-column:10/15;
+grid-row: 53/56;
+}
+#ben1{
+  grid-column:8/12;
+  grid-row: 50/53;
+}
+#ben2 {
+  grid-column:4/8;
+  grid-row: 53/56;
+}
+#ben3{
+  grid-column:13/15;
+  grid-row: 50/52;
+}
+#vanya{
+  grid-column:5/8;
+  grid-row: 57/58;
+}
+#vanyapic{
+   grid-column:4/8;
+  grid-row: 58/61;}
+#vanyapwr {grid-column:10/15;
+grid-row: 61/64;
+}
+#van{
+  grid-column:8/12;
+  grid-row: 58/61;
+}
+#van2 {
+  grid-column:4/8;
+  grid-row: 61/64;
+}
+#van3{
+  grid-column:13/15;
+  grid-row: 58/60;
+}
+#others{
+  grid-column:5/8;
+  grid-row: 65/66;
+}
+@media only screen and (max-width: 480px){
+*p {
+  color:red;
+
+}
+}
