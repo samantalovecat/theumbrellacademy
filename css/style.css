@@ -10,7 +10,6 @@ h1{
 }
 
 h2 {
-  color:rgb(233, 54, 54);
 font-family: 'Fjalla One', sans-serif;
 }
 
@@ -166,6 +165,7 @@ font-family: 'Fjalla One', sans-serif;
   text-align: center;
   padding-top: 40%;
   text-shadow: 3px 3px rgb(15, 45, 136);
+    color:rgb(233, 54, 54);
 }
 
 .regulartext{
@@ -279,6 +279,7 @@ font-family: 'Fjalla One', sans-serif;
 #storytitle {
   font-size: 200%;
   text-align: center;
+    color:rgb(233, 54, 54);
 }
 #realtop {
   width: 100%;
