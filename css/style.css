@@ -233,7 +233,10 @@ font-family: 'Fjalla One', sans-serif;
 #trailertext{
   text-align: right;
 }
-
+#trailer{
+  width: 100%;
+  height: 100%;
+}
 
 #text2 {
   color: white;
@@ -296,4 +299,10 @@ ul {
 
 li {
   display: inline;
+}
+
+
+
+@media only screen and (max-width: 480px){
+
 }

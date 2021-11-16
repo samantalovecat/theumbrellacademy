@@ -212,9 +212,3 @@ grid-row: 61/64;
   grid-column:5/8;
   grid-row: 65/66;
 }
-@media only screen and (max-width: 480px){
-*p {
-  color:red;
-
-}
-}
