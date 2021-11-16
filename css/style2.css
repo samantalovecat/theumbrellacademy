@@ -197,7 +197,7 @@ font-family: 'Fjalla One', sans-serif;
 }
 .list1{
   background-color: #fff9ed;
-  margin-top: 1px;
+  margin-top: 0px;
   display: flex;
   flex-direction:row;
   justify-content: space-evenly;
@@ -212,7 +212,7 @@ font-family: 'Fjalla One', sans-serif;
 }
 .list2{
   background-color: #fff9ed;
-    margin-top: 1px;
+    margin-top: 0px;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;

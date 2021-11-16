@@ -14,7 +14,7 @@ h2 {
 font-family: 'Fjalla One', sans-serif;
 }
 
-*{
+* {
   max-height: 100%;
 }
 
@@ -313,7 +313,7 @@ li {
     min-height: 50px;
   }
 
-.meetthehar{
+.logotext {
   color:yellow
 
 }
