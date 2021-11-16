@@ -114,3 +114,17 @@
   grid-row: 29/33;
 
 }
+
+
+@media only screen and (max-width: 480px){
+
+  #realtop {
+    grid-column: 1/-1;
+    grid-row: 1/6
+  }
+
+#funky2{grid-column: 1/9;
+grid-row:6/7;
+}
+
+}
