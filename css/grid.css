@@ -126,6 +126,7 @@
 #funky2{grid-column: 1/-1;
 grid-row:6/8;
 }
+
 #home {
   grid-column: 5/12;
   grid-row: 8/9;
@@ -138,6 +139,10 @@ grid-row:6/8;
 .logotext {
   grid-column: 1/-1;
   grid-row: 1/6;
+}
+.flexbox-header{
+  grid-column:1/-1;
+  grid-row: 7/8;
 
 }
 }

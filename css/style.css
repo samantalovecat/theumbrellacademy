@@ -304,7 +304,7 @@ li {
     background: radial-gradient(ellipse at left , rgba(232, 7, 7, 0.47) 0.2% , #000000 70%);
       margin-top: 0px;
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: space-evenly;
     position: sticky;
     align-items: center;
@@ -314,7 +314,6 @@ li {
   }
 
 .logotext {
-  color:yellow
-
+  color:yellow;
 }
 }
