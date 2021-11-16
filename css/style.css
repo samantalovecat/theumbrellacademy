@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+h1{
+  color: transparent;
+  font-size: 0.0002%;
+}
 
 h2 {
   color:rgb(233, 54, 54);
