@@ -233,7 +233,7 @@ font-family: 'Fjalla One', sans-serif;
 #trailertext{
   text-align: right;
 }
-#trailer{
+.trailer{
   width: 100%;
   height: 100%;
 }
