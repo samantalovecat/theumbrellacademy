@@ -297,3 +297,20 @@ ul {
 li {
   display: inline;
 }
+
+@media only screen and (max-width: 480px){
+
+  .flexbox-header {
+    background: radial-gradient(ellipse at left , rgba(232, 7, 7, 0.47) 0.2% , #000000 70%);
+      margin-top: 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    position: sticky;
+    align-items: center;
+    top: 30px;
+    border-radius: 0px 50px 50px 0px;
+    min-height: 50px;
+  }
+
+}
