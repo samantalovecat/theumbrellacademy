@@ -130,5 +130,8 @@ grid-row:6/8;
   grid-column: 5/12;
   grid-row: 8/9;
 }
-
+*
+{height: 100%;
+  width: 100%;
+}
 }
