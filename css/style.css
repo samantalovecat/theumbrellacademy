@@ -212,7 +212,7 @@ font-family: 'Fjalla One', sans-serif;
    text-align: left;
 }
 
-#uaaa {
+#gerard  {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -296,27 +296,85 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline;
+i {
+  font-size: 3px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 560px){
+
+
 
   .flexbox-header {
-    background: radial-gradient(ellipse at left , rgba(232, 7, 7, 0.47) 0.2% , #000000 70%);
-      margin-top: 0px;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
     position: sticky;
     align-items: center;
-    top: 30px;
-    border-radius: 0px 50px 50px 0px;
-    min-height: 50px;
+    height: 100%;
+   width: 20px;
+   margin-top: 0px;
+   top: 20px;
   }
 
 .logotext {
-  color:yellow;
+display: none;
+}
+#funky2{
   height: 100%;
+  width: 100%;
+}
+
+#hombck {
+display: none;
+}
+
+#realtop {
+  height: 100%;
+   object-fit: contain;
+}
+.generalinfo {
+display: none;
+}
+
+#text1a {
+  font-size: 80%;
+}
+#uaaa{
+  display: none;
+}
+#text1b{
+  display: none;
+}
+#trailertext{
+  display: none;
+}
+
+/*STORY*/
+#storytitle {
+  display: none;
+
+}
+
+
+#text2 {
+  display: none;
+
+}
+
+
+#babyborn {
+  display: none;
+
+
+}
+
+#babyborn1 {
+  display: none;
+
+
+}
+#herofam {
+  display: none;
+
 }
 }
